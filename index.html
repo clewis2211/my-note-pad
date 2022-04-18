@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Notepadd</title>
+</head>
+<body>
+    <div class="container text-center mt-5" id="notPadHeader"><h1>Simple Note Pad App</h1></div>
+        <div class="container-fluid text-center">
+            
+            <div class="form-container border border-secondary rounded pb-4">
+                <form action="" method="get" class="getNote" id="form">
+                    <div class="container-fluid">
+                        <label for="note-textarea">Enter Note Here...</label>
+                        <textarea id="textArea" class="form-control" name="note" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+            </div>
+                <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+                <button type="reset" class="btn btn-danger" id="resetBtn">Clear</button>
+        </div>
+    
+        <div class="container container-fluid " id="notesContainer">
+            <div class="listOfNotes">
+                <div class="empty d-flex flex-column-reverse " style="float: left;" id="todoItems">
+                   
+                </div>
+                <div class="container notes" id="noteDiv">
+                    <h3>Notes</h3>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>

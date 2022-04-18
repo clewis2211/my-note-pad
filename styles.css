@@ -1,0 +1,23 @@
+/* .form-container{
+    border: solid 1px;
+    border-radius: 10px;
+} */
+
+#noteDiv{
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.noteText{
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 5px;
+}
+
+#deleteBtn{
+    display: flex;
+
+}
